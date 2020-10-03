@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346616241805",
+    "firebase_url": "https://profissoes-acb57.firebaseio.com",
+    "project_id": "profissoes-acb57",
+    "storage_bucket": "profissoes-acb57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346616241805:android:085cfe2a4a23878f108cc4",
+        "android_client_info": {
+          "package_name": "com.betharley.mobile.appprofissoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346616241805-2m9cbntvjn0g6s62ar10552km1kdl9rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betharley.mobile.appprofissoes",
+            "certificate_hash": "085635dd2cd2299367c3f2c327088140cfde47dc"
+          }
+        },
+        {
+          "client_id": "346616241805-jcm6dovk18kh3tutodsh6cd0kkelags8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ATZNwC_OC_qYklE5rYZ3ipLbhElQlTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346616241805-jcm6dovk18kh3tutodsh6cd0kkelags8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

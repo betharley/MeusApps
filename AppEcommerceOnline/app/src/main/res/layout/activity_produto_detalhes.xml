@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".ProdutoDetalhesActivity" >
+
+
+<ImageView
+    android:id="@+id/detalhes_foto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    android:src="@drawable/profile"
+    android:layout_weight="1"
+    />
+
+<TextView
+    android:id="@+id/detalhes_nome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nome do Produto"
+    android:textStyle="bold"
+    android:textColor="#0F75C7"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#E9E7E7"
+    >
+
+    <TextView
+        android:id="@+id/detalhes_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Descrição do Produto"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+</ScrollView>
+    <ProgressBar
+        android:id="@+id/detalhes_progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="-45dp"
+        android:layout_gravity="center"
+        />
+<LinearLayout
+    android:id="@+id/lin"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/detalhes_preco_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qtd 1, Total: 100"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/detalhes_preco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:textSize="22sp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:gravity="right"
+        />
+</LinearLayout>
+
+
+<com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+    android:id="@+id/detalhes_button_elegant"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    app:textSize="10sp"
+    app:initialNumber="1"
+    app:finalNumber="20"
+    android:layout_gravity="center"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:gravity="center"
+
+    >
+
+</com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+<Button
+    android:id="@+id/detalhes_adicionar_carrinho"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:text="Adicionar ao Carrinho"
+    android:textSize="16sp"
+    android:textColor="#FFF"
+    android:textStyle="bold"
+
+    />
+</LinearLayout>

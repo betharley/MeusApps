@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="6dp"
+    android:background="#DDD"
+    android:id="@+id/view_container_postagem"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+ <!--
+    <TextView
+        android:id="@+id/post_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#780A9F"
+        android:textSize="10sp"
+        android:textAllCaps="true"
+        android:text="Post"
+        />
+-->
+
+    <TextView
+        android:id="@+id/post_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#780A9F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Titulo"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/post_imagem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/shape_fundo"
+        />
+
+    <TextView
+        android:id="@+id/post_conteudo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:textColor="#780A9F"
+        android:textSize="14sp"
+        android:text="Conteudo da Postagem" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#CFC9C9"
+            >
+            <WebView
+                android:id="@+id/webView_postagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>
+
+    <TextView
+        android:id="@+id/post_ler_mais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler mais ..."
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:elevation="4dp"
+        android:layout_marginTop="-10dp"
+        />
+
+    <TextView
+        android:id="@+id/post_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#780A9F"
+        android:textSize="12sp"
+        android:text="Data postagem"
+        android:gravity="end"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-10dp"
+        />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "240108911051",
+    "firebase_url": "https://appsitecatula.firebaseio.com",
+    "project_id": "appsitecatula",
+    "storage_bucket": "appsitecatula.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240108911051:android:724564c2d34f7ed129de4e",
+        "android_client_info": {
+          "package_name": "com.betharley.wesleycatula.mobile.appemprego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240108911051-r6qvqahjv7rvi7jdch3e4srln3hvu1pc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betharley.wesleycatula.mobile.appemprego",
+            "certificate_hash": "085635dd2cd2299367c3f2c327088140cfde47dc"
+          }
+        },
+        {
+          "client_id": "240108911051-gthschcu2jvbrdnctgl48k2pkod6is4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAFEhEaayyDae64Ap0y6T6M_F9mN9kwuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240108911051-gthschcu2jvbrdnctgl48k2pkod6is4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

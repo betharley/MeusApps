@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardElevation="9dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_ordem_imagem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profile"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/item_ordem_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_ordem_imagem"
+            android:layout_marginLeft="10dp"
+            android:text="Nome Produto"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/item_ordem_quantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qtd X "
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_below="@+id/item_ordem_nome"
+            android:layout_toEndOf="@+id/item_ordem_imagem"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/item_ordem_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preço = "
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_below="@+id/item_ordem_nome"
+            android:layout_toEndOf="@+id/item_ordem_quantidade"
+            />
+
+        <TextView
+            android:id="@+id/item_ordem_preco_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: R$: 2.56"
+            android:textColor="#05FA15"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/item_ordem_nome"
+            android:layout_toEndOf="@+id/item_ordem_preco"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/item_ordem_data_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviado em 27/22/2019 03/22/55 AM"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_below="@+id/item_ordem_preco"
+            android:layout_toEndOf="@+id/item_ordem_imagem"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/item_ordem_nome_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_ordem_imagem"
+            android:text="Nome, Telefone"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/item_ordem_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_ordem_nome_telefone"
+            android:text="Horário e Local de Entrega"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/item_ordem_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_ordem_endereco"
+            android:text="Status: Processando"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/item_ordem_deletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_ordem_endereco"
+            android:text="Apagar"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

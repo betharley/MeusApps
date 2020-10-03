@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PerfilFragment"
+    android:background="@drawable/fundo_gradiente">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/perfil_foto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="#50FFFFFF"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/perfil_alterar_foto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/nav_galaria_ic_image_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/perfil_foto"
+            app:layout_constraintEnd_toEndOf="@+id/perfil_foto" />
+
+
+        <ProgressBar
+            android:id="@+id/perfil_progressBar2_foto"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/perfil_foto"
+            app:layout_constraintEnd_toEndOf="@+id/perfil_foto"
+            app:layout_constraintStart_toStartOf="@+id/perfil_foto"
+            app:layout_constraintTop_toTopOf="@+id/perfil_foto" />
+
+
+        <TextView
+            android:id="@+id/perfil_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="24dp"
+            android:drawableRight="@drawable/nav_lock_ic_lock_outline_black_24dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_foto" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/perfil_linear_nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColorHint="#FFF"
+            app:layout_constraintBottom_toTopOf="@+id/perfil_linear_telefone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/perfil_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fundo_opaco"
+                android:hint="Nome"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#FFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/perfil_linear_telefone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColorHint="#FFF"
+            app:layout_constraintBottom_toTopOf="@+id/perfil_linear_endereco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_linear_nome">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/perfil_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fundo_opaco"
+                android:hint="Telefone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#FFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar
+            android:id="@+id/perfil_progressBar2_dados"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/perfil_linear_endereco" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/perfil_linear_endereco"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColorHint="#FFF"
+            app:layout_constraintBottom_toTopOf="@+id/perfil_botao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_linear_telefone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/perfil_endereco"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/fundo_opaco"
+                android:gravity="start"
+                android:hint="Endereço Completo"
+                android:inputType="textMultiLine"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textColor="#FFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/perfil_botao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fundo_entrada"
+            android:text="Atualizar Dados"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_linear_endereco" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

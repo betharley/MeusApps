@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App02</string>
+    <string name="login_email">Didite o seu e-mail</string>
+    <string name="login_senha">Digite a sua senha</string>
+    <string name="login_cadastro">Cadastra-se</string>
+    <string name="login_logar">Logar</string>
+</resources>

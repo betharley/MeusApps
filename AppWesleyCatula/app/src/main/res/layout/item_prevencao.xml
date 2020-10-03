@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/item_prevencao_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/foto_wesley"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/item_prevencao_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="#777"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/item_prevencao_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#777"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

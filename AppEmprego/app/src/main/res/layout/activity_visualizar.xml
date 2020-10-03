@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VisualizarActivity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/ver_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#8E24AA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <ImageView
+            android:id="@+id/ver_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/shape_fundo"
+
+            />
+        <TextView
+            android:id="@+id/ver_destaque"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:text="Conteudo"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <WebView
+                android:id="@+id/webView_visualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/ver_conteudo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/ver_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data 25/05/2020 12:00"
+            android:gravity="end"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#8E24AA"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    android:background="#FFFFFF"
+    android:id="@+id/view_container_vaga"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ver_imagem_empresa"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/emprego_centro"
+                        />
+                    <TextView
+                        android:id="@+id/ver_nome_empresa"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Empregando Brasil"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="10dp"
+                        android:textColor="#7a1b0c"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ver_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vendedora (Folguista)"
+                    android:textColor="#52170b"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <WebView
+                        android:id="@+id/webView_visualizar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/ver_link_vaga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="Link da vaga"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#0000FF"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    android:maxLines="6"
+                    android:ellipsize="end"
+                    android:textAlignment="textStart"
+                    />
+
+                <TextView
+                    android:id="@+id/ver_localidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7a1b0c"
+                    android:textSize="14sp"
+                    android:text="Goiânia, Goiás, BR"
+                    android:gravity="end"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:id="@+id/ver_data_hora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2d1106"
+                    android:textSize="12sp"
+                    android:text="Wed, 25 Mar 2020 07:48:12 -0400"
+                    android:gravity="end"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+&lt;!&ndash;        <TextView
+            android:id="@+id/ver_destaque"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:text="Conteudo"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            />&ndash;&gt;
+
+        &lt;!&ndash;<FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <WebView
+                android:id="@+id/webView_visualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>&ndash;&gt;
+
+&lt;!&ndash;        <TextView
+            android:id="@+id/ver_conteudo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            />&ndash;&gt;
+
+     &lt;!&ndash;   <TextView
+            android:id="@+id/ver_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data 25/05/2020 12:00"
+            android:gravity="end"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#8E24AA"
+            />&ndash;&gt;
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+-->

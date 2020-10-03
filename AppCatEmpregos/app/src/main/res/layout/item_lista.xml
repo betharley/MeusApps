@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/item_lista_empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empresa"
+            android:layout_marginBottom="2dp"
+            android:gravity="left"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/item_lista_cargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargo"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/item_lista_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="Descrição quando uma pessoa busca uma oportunidade de emprego, ela também procura algo que se encaixe com seus anseios."
+            android:textSize="16sp"
+            android:maxLines="6"
+            />
+
+        <TextView
+            android:id="@+id/item_lista_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:text="02/07/2019 18:40"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

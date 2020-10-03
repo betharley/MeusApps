@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group_logado" android:visible="false">
+
+        <item android:id="@+id/publicar_anuncios"
+            android:title="Publicar Anúncio" />
+
+        <item android:id="@+id/menu_anuncios"
+            android:title="Meus Anúncios" />
+
+        <item android:id="@+id/menu_logout"
+            android:title="Trocar Usuário"/>
+
+        <item android:id="@+id/menu_fechar_logado"
+            android:title="Fechar App"/>
+
+    </group>
+
+
+    <group android:id="@+id/group_deslogado" android:visible="false">
+
+        <item android:id="@+id/menu_publicar"
+            android:title="Publicar"
+            />
+
+        <item android:id="@+id/menu_login"
+            android:title="Login"
+            app:showAsAction="always"/>
+
+        <item android:id="@+id/menu_cadastrar"
+            android:title="Cadastrar"
+            />
+
+        <item android:id="@+id/menu_fechar_deslogado"
+            android:title="Fechar App"/>
+    </group>
+</menu>

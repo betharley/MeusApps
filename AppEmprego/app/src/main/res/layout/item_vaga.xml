@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="2dp"
+    android:elevation="10dp"
+    android:background="#FFFFFF"
+    android:id="@+id/view_container_vaga"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/item_vaga_imagem_empresa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/emprego_centro"
+                />
+            <TextView
+                android:id="@+id/item_vaga_nome_empresa"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Empregando Brasil"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="10dp"
+                android:textColor="#292929"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+ <!--
+    <TextView
+        android:id="@+id/post_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#780A9F"
+        android:textSize="10sp"
+        android:textAllCaps="true"
+        android:text="Post"
+        />
+-->
+
+    <TextView
+        android:id="@+id/item_vaga_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#292929"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Vendedora (Folguista)"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#CFC9C9"
+            >
+            <WebView
+                android:id="@+id/webView_postagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/item_vaga_link_vaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Ver mais ..."
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:textColor="#0000FF"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:maxLines="6"
+            android:ellipsize="end"
+            android:textAlignment="textStart"
+            />
+
+    <!--<TextView
+        android:id="@+id/item_vaga_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/shape_fundo"
+        android:backgroundTint="#FFFFFF"
+        android:text="Quantidade de Vagas Disponiveis 1 Efetiva Atividades a Serem desenvolvidas: Atendimento ao cliente Realizar vendas e reposições dos produtos Organização da loja Requerimentos: Ensino Médio Completo Experiência comprovada em vendas Educação: Ensino Médio / Completo Carga Horaria de Trabalho: Combinar Dias de trabalho: Combinar Tempo de Experiencia: Com Experiência Salário: R$ 1600 Beneficios: Vale Transporte,Vale Alimentação, Observações:Disponibilidade nos seguintes horário: 12h às 20h20 /13h40 às 22h/12h às 20h/10h às 18h"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="5dp"
+        android:textColor="#2d1106"
+        android:textSize="13sp"
+        android:textAllCaps="false"
+        android:maxLines="6"
+        android:ellipsize="end"
+        android:textAlignment="textStart"
+        />-->
+
+<!--    <TextView
+        android:id="@+id/post_conteudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:textColor="#780A9F"
+        android:textSize="14sp"
+        android:text="Conteudo da Postagem"
+
+        />-->
+
+       <!-- <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#CFC9C9"
+            >
+            <WebView
+                android:id="@+id/webView_postagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>-->
+
+  <!--  <TextView
+        android:id="@+id/post_ler_mais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler mais ..."
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:elevation="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:padding="8dp"
+        android:background="@drawable/botao_shape"
+        />-->
+
+        <TextView
+            android:id="@+id/item_vaga_localidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#7a1b0c"
+            android:textSize="14sp"
+            android:text="Goiânia, Goiás, BR"
+            android:gravity="end"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            />
+    <TextView
+        android:id="@+id/item_vaga_data_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2d1106"
+        android:textSize="12sp"
+        android:text="Wed, 25 Mar 2020 07:48:12 -0400"
+        android:gravity="end"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

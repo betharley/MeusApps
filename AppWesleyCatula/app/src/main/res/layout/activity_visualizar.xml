@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VisualizarActivity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <TextView
+        android:id="@+id/ver_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#8E24AA"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+    <ImageView
+        android:id="@+id/ver_imagem"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/shape_fundo"
+
+        />
+        <TextView
+            android:id="@+id/ver_destaque"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:text="Conteudo"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <WebView
+                android:id="@+id/webView_visualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/ver_conteudo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/ver_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data 25/05/2020 12:00"
+            android:gravity="end"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#8E24AA"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

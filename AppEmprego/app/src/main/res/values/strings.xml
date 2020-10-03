@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Vagas Disponíveis</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_pesquisar">Pesquisar</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!-- BANNER DE DENIFITIVO -->
+    <string name="banner_1">ca-app-pub-6337499333184095/3806297777</string>
+
+    <!-- BANNER DE TESTE -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string-array name="spiner_estados">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
+    <string-array name="spiner_cidade">
+        <item>Categoria</item>
+        <item>Administração</item>
+        <item>Informática</item>
+        <item>Telemarkting</item>
+        <item>Autônomo</item>
+        <item>Voluntário</item>
+        <item>vendedor</item>
+        <item>Saúde</item>
+        <item>Freelancer</item>
+        <item>Outros</item>
+    </string-array>
+
+
+    <string-array name="frases_array">
+        <item>A imaginação é sua própria forma de coragem.</item>
+        <item>Estou convencido que metade do que separa os empreendedores bem sucedidos de todo o resto é a pura perseverança.</item>
+        <item>Uma vez que você tenha aceitado suas falhas, ninguém poderá usá-las contra você.</item>
+        <item>Passei a vida inteira com medo, medo das coisas que poderiam acontecer e das que poderiam não acontecer. O que eu descobri foi que o medo é a pior parte. Esse é o verdadeiro inimigo.</item>
+        <item>Ter sucesso é falhar repetidamente, mas sem perder o entusiasmo.</item>
+        <item>Escolha uma ideia. Faça dessa ideia a sua vida. Pense nela, sonhe com ela, viva pensando nela. Deixe cérebro, músculos, nervos, todas as partes do seu corpo serem preenchidas com essa ideia. Esse é o caminho para o sucesso.</item>
+        <item>O que nos parece uma provação amarga pode ser uma bênção disfarçada.</item>
+        <item>Quanto mais eu me conheço, mais eu me curo e me potencializo.</item>
+        <item>O grande segredo de uma boa vida é encontrar qual é o seu destino. E realizá-lo.</item>
+        <item>Se você não gosta do que está sendo dito, mude a conversa.</item>
+        <item>A lógica pode levar de um ponto A a um ponto B. A imaginação pode levar a qualquer lugar.</item>
+        <item>Quando tudo parece estar indo contra você, lembre-se que o avião decola contra o vento, não a favor dele.</item>
+        <item>Você não pode deixar de usar a criatividade. Quanto mais você usa, mais você tem.</item>
+        <item>Você se torna o que você acredita.</item>
+        <item>Muitos de nós não estamos vivendo nossos sonhos porque estamos vivendo nossos medos.</item>
+        <item>A mente é tudo. Você se torna aquilo que você pensa.</item>
+        <item>Para conquistar o sucesso, você precisa aceitar todos os desafios que vierem na sua frente. Você não pode apenas aceitar os que você preferir.</item>
+        <item>Você deve lutar mais de uma batalha para se tornar um vencedor.</item>
+        <item>Nosso maior medo não deve ser o fracasso, mas ser bem-sucedidos em algo que não importa.</item>
+        <item>O sucesso não consiste em não errar, mas não cometer os mesmos equívocos mais de uma vez.</item>
+        <item>Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo.</item>
+        <item>Não é o que você faz para os seus filhos, mas o que você os ensinou a fazer por si mesmos, que irá torná-los seres humanos bem sucedidos.</item>
+        <item>O homem que não tem imaginação, não tem asas.</item>
+        <item>Criatividade é a inteligência se divertindo.</item>
+        <item>Não abandone suas três grandes e inabaláveis amigas: a intuição, a inocência e a fé.</item>
+        <item>São as nossas decisões e nossas habilidades que demonstram quem somos na realidade.</item>
+        <item>Uma jornada de mil milhas começa com um simples passo.</item>
+        <item>Se você não está disposto a arriscar, esteja disposto a uma vida comum.</item>
+        <item>Não é o mais forte que sobrevive, nem o mais inteligente. Quem sobrevive é o mais disposto à mudança.</item>
+        <item>As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente.</item>
+        <item>Toda ação humana, quer se torne positiva ou negativa, precisa depender de motivação.</item>
+        <item>A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento.</item>
+        <item>A persistência é o caminho do êxito.</item>
+        <item>No meio da dificuldade encontra-se a oportunidade.</item>
+        <item>Quando você quer alguma coisa, todo o universo conspira para que você realize o seu desejo</item>
+        <item>Só se pode alcançar um grande êxito quando nos mantemos fiéis a nós mesmos.</item>
+        <item>Quando uma criatura humana desperta para um grande sonho e sobre ele lança toda a força de sua alma, todo o universo conspira a seu favor.</item>
+        <item>Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez</item>
+        <item>Coragem é a resistência ao medo, domínio do medo, e não a ausência do medo</item>
+        <item>O verdadeiro homem mede a sua força, quando se defronta com o obstáculo</item>
+        <item>Você precisa fazer aquilo que pensa que não é capaz de fazer.</item>
+        <item>O entusiasmo é a maior força da alma. Conserva-o e nunca te faltará poder para conseguires o que desejas.</item>
+        <item>A adversidade desperta em nós capacidades que, em circunstâncias favoráveis, teriam ficado adormecidas.</item>
+        <item>Se fracassar, ao menos que fracasse ousando grandes feitos, de modo que a sua postura não seja nunca a dessas almas frias e tímidas que não conhecem nem a vitória nem a derrota.</item>
+        <item>Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.</item>
+        <item>Acredite em si próprio e chegará um dia em que os outros não terão outra escolha senão acreditar com você.</item>
+        <item>Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante.</item>
+        <item>O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis.</item>
+        <item>Agir, eis a inteligência verdadeira. Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. Condições de palácio tem qualquer terra larga, mas onde estará o palácio se não o fizerem ali?</item>
+        <item>A vitalidade é demonstrada não apenas pela persistência, mas pela capacidade de começar de novo.</item>
+        <item>O homem não teria alcançado o possível se, repetidas vezes, não tivesse tentado o impossível.</item>
+        <item>As únicas grandes companhias que conseguirão ter êxito são aquelas que consideram os seus produtos obsoletos antes que os outros o façam.</item>
+        <item>Talento é dom, é graça. E sucesso nada tem haver com sorte, mas com determinação e trabalho.</item>
+        <item>Para ter um negócio de sucesso, alguém, algum dia, teve que tomar uma atitude de coragem.</item>
+        <item>A disciplina é a mãe do êxito.</item>
+        <item>O segredo do êxito na vida de um homem está em preparar-se para aproveitar a ocasião, quando ela se apresenta.</item>
+        <item>Suba o primeiro degrau com fé. Não é necessário que você veja toda a escada. Apenas dê o primeiro passo.</item>
+        <item>As pessoas não carecem de força, carecem de determinação.</item>
+        <item>Comece fazendo o que é necessário, depois o que é possível, e de repente você estará fazendo o impossível.</item>
+        <item>O êxito da vida não se mede pelo caminho que você conquistou, mas sim pelas dificuldades que superou no caminho.</item>
+    </string-array>
+
+    <string-array name="autor_array">
+        <item>Frank Underwood – Personagem da série The House Of Cards</item>
+        <item>Steve Jobs</item>
+        <item>Tyrion Lannister – Personagem da série Game Of Thrones</item>
+        <item>Walter White – Personagem da série Breaking Bad</item>
+        <item>Winston Churchill</item>
+        <item>Swami Vivekananda</item>
+        <item>Oscar Wilde</item>
+        <item>José Roberto Marques</item>
+        <item>Henry Ford</item>
+        <item>Don Draper – Personagem da série Mad Men</item>
+        <item>Albert Einstein</item>
+        <item>Henry Ford</item>
+        <item>Maya Angelou</item>
+        <item>Oprah Winfrey</item>
+        <item>Les Brown</item>
+        <item>Buda</item>
+        <item>Mike Gafka</item>
+        <item>Margaret Thatcher</item>
+        <item>Francis Chan</item>
+        <item>George Bernard Shaw</item>
+        <item>Rosa Parks</item>
+        <item>Ann Landers</item>
+        <item>Mohammad Ali</item>
+        <item>Albert Einstein</item>
+        <item>George Gurdjieff</item>
+        <item>J. K. Rowling</item>
+        <item>Lao Tzu</item>
+        <item>Jim Rohn</item>
+        <item>Charles Darwin</item>
+        <item>Zig Ziglar</item>
+        <item>Dalai Lama</item>
+        <item>Frederick Herzberg</item>
+        <item>Charles Chaplin</item>
+        <item>Albert Einstein</item>
+        <item>Paulo Coelho</item>
+        <item>Friedrich Nietzsche</item>
+        <item>Johann Goethe</item>
+        <item>Thomas Edison</item>
+        <item>Mark Twain</item>
+        <item>Antoine de Saint-Exupéry</item>
+        <item>Eleanor Roosevelt</item>
+        <item>Napoleon Hill</item>
+        <item>Horácio</item>
+        <item>Theodore Roosevelt</item>
+        <item>Roberto Shinyashiki</item>
+        <item>Cynthia Kersey</item>
+        <item>Augusto Branco</item>
+        <item>José de Alencar</item>
+        <item>Fernando Pessoa.</item>
+        <item>F. Scott Fitzgerald</item>
+        <item>Max Weber</item>
+        <item>Bill Gates</item>
+        <item>Augusto Branco</item>
+        <item>Peter Drucker</item>
+        <item>Ésquilo</item>
+        <item>Benjamin Disraeli</item>
+        <item>Martin Luther King</item>
+        <item>Victor Hugo</item>
+        <item>São Francisco de Assis</item>
+        <item>Abraham Lincoln</item>
+
+    </string-array>
+
+
+</resources>

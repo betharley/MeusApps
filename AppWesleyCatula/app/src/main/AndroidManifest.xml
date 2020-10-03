@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.betharley.mobile.wesleycatula">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icone_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.TesteActivity" />
+        <activity android:name=".activity.FrasesActivity" />
+        <activity android:name=".GaleriaActivity" />
+        <activity android:name=".activity.PerfilActivity" />
+        <activity android:name=".activity.VisualizarActivity" />
+        <activity
+            android:name=".activity.PrevencaoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".activity.PerfilActivity"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ACC1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/foto_wesley" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="Wesley Morais Catula"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="-25dp"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/loading_shape"
+        android:text="Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado. "
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_email"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/icone_email"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/ic_email_black_24dp" />
+                <TextView
+                    android:id="@+id/perfil_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#4C4B4B"
+                    android:text="wesleycatula@gmail.com"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_fone"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/icone_fone"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_phone_android_black_24dp" />
+                <TextView
+                    android:id="@+id/perfil_fone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#4C4B4B"
+                    android:text="62 9 9999 9999"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_site_wesley"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:onClick="abrirWesleyCatula"
+                >
+                <ImageView
+                    android:id="@+id/icone_site_wesley"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_person_black_24dp" />
+                <TextView
+                    android:id="@+id/perfil_wesleycatula"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textColor="#044F8A"
+                    android:text="www.wesleycatula.com"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_site_vagas_disponiveis"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:onClick="abrirVagasDisponiveis"
+                >
+                <ImageView
+                    android:id="@+id/icone_vagas_disponiveis"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icone_vagas_disponiveis" />
+
+                <TextView
+                    android:id="@+id/perfil_vagasdisponiveis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="https://www.vagasdisponiveis.com"
+                    android:textAllCaps="false"
+                    android:textColor="#044F8A"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#AAA"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+                <TextView
+                    android:text="Parceiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="#818080"
+                    android:textSize="18sp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#AAA"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_neuvoo"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:onClick="abrirNeuvoo"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50dp"
+                >
+                <ImageView
+                    android:id="@+id/icone_neuvoo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/neuvoo" />
+
+                <TextView
+                    android:id="@+id/perfil_neuvoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="https://neuvoo.com"
+                    android:textAllCaps="false"
+                    android:textColor="#044F8A"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+

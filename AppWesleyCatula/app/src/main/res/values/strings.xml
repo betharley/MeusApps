@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Wesley Catula</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+
+
+    <string-array name="frases_array">
+        <item>A imaginação é sua própria forma de coragem.</item>
+    </string-array>
+
+
+    <string-array name="autor_array">
+        <item>Frank Underwood – Personagem da série The House Of Cards</item>
+    </string-array>
+
+
+
+
+    <string name="teste_html">
+        <![CDATA[
+
+        <a href="/index.php/sobre-a-doenca">
+		    Sobre a doença</a>
+		<h2>O que é coronavírus?</h2>
+
+        ]]>
+    </string>
+
+
+</resources>

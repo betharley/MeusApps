@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584975397156",
+    "firebase_url": "https://ecommerceonline-1b5fe.firebaseio.com",
+    "project_id": "ecommerceonline-1b5fe",
+    "storage_bucket": "ecommerceonline-1b5fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584975397156:android:820a14795b59ef4a6703b1",
+        "android_client_info": {
+          "package_name": "com.betharley.mobile.ecommerceonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584975397156-ji4p7m7bfvdrpc3cn4srl8114v3eujnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betharley.mobile.ecommerceonline",
+            "certificate_hash": "085635dd2cd2299367c3f2c327088140cfde47dc"
+          }
+        },
+        {
+          "client_id": "584975397156-co7kf2855l6esshctoug2gmd17r6acbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDwSHndL1uPX7KYTpQmgxlwlVhVb06GcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584975397156-co7kf2855l6esshctoug2gmd17r6acbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

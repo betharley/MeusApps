@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.CadastrarAnunciosActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03486B"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="#066B9C"
+        >
+
+        <Spinner
+            android:id="@+id/cadastrar_anuncio_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+
+        <Spinner
+            android:id="@+id/cadastrar_anuncio_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="@color/branco"
+        android:background="@drawable/input_fundo"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_anuncio_empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome da empresa"
+            android:inputType="text"
+            android:textColor="@color/cinza_medio"
+            android:paddingVertical="5dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="@color/branco"
+        android:background="@drawable/input_fundo"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_anuncio_cargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cargo"
+            android:inputType="text"
+            android:textColor="@color/cinza_medio"
+            android:paddingVertical="5dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColorHint="@color/branco"
+            android:background="@drawable/input_fundo"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_weight="1"
+            >
+
+
+            <com.blackcat.currencyedittext.CurrencyEditText
+                android:id="@+id/cadastrar_anuncio_salario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Salário"
+                android:inputType="number"
+                android:textColor="@color/cinza_medio"
+                android:paddingVertical="5dp"
+                android:textSize="18sp"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/cadastrar_anuncio_check_box_salario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A combinar"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="5dp"
+            android:onClick="ativarCheckBox"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_escolha"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preencha ao menos um contato:"
+            android:textColor="@color/branco"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColorHint="@color/branco"
+            android:background="@drawable/input_fundo"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cadastrar_anuncio_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/cinza_medio"
+                android:paddingVertical="5dp"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColorHint="@color/branco"
+            android:background="@drawable/input_fundo"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+
+            <com.santalu.maskedittext.MaskEditText
+                android:id="@+id/cadastrar_anuncio_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefone"
+                android:inputType="number"
+                android:textColor="@color/cinza_medio"
+                android:paddingVertical="5dp"
+                android:textSize="18sp"
+                app:met_mask="(##) #####-####"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColorHint="@color/branco"
+            android:background="@drawable/input_fundo"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cadastrar_anuncio_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Site"
+                android:inputType="text"
+                android:textColor="@color/cinza_medio"
+                android:paddingVertical="5dp"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:textColorHint="@color/branco"
+        android:background="@drawable/input_fundo"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_anuncio_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a descrição e requisitos do cargo"
+            android:minLines="3"
+            android:padding="5dp"
+            android:inputType="textMultiLine"
+
+            android:gravity="top|left"
+            android:maxLines="15"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textColor="@color/cinza_medio"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/cadastrar_anuncio_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Data do anúncio xx/xx/xxxx xx:xx"
+        android:textColor="#FFF"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <Button
+        android:theme="@style/botaoPressionado"
+        android:id="@+id/cadastrar_anuncio_publicar_vaga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_bg"
+        android:text="Publicar Vaga"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/branco"
+        android:textAllCaps="true"
+        android:padding="10dp"
+        android:onClick="validarAnuncio"
+        android:layout_marginTop="10dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/cadastrar_anuncio_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+

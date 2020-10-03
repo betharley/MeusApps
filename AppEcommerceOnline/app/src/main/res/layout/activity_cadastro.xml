@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_gradiente"
+    tools:context=".inicio.CadastroActivity">
+
+
+    <LinearLayout
+        android:id="@+id/cadatrar_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cadastrar_layout_nome"
+        android:gravity="center"
+        >
+
+
+        <ImageView
+            android:id="@+id/cadastrar_layout_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/cadastrar_layout_nome"
+
+            />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/cadastro_progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cadastrar_layout_nome"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastrar_layout_nome"
+        android:layout_above="@+id/cadastrar_layout_email"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#FFF"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+
+            android:textColor="#FFF"
+            android:background="@drawable/fundo_opaco"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastrar_layout_email"
+        android:layout_above="@+id/cadastrar_layout_senha"
+        android:textColorHint="#FFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#FFF"
+            android:background="@drawable/fundo_opaco"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastrar_layout_senha"
+        android:layout_above="@+id/cadastrar_layout_confirmar_senha"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"
+            android:textColor="#FFF"
+            android:background="@drawable/fundo_opaco"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastrar_layout_confirmar_senha"
+        android:layout_above="@+id/cadastrar_botao"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cadastrar_confirmar_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirme a senha"
+            android:textColor="#FFF"
+            android:background="@drawable/fundo_opaco"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/cadastrar_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_entrada"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Cadastrar"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+</RelativeLayout>

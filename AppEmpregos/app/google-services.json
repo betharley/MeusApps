@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "428330186187",
+    "firebase_url": "https://catempregos-6614c.firebaseio.com",
+    "project_id": "catempregos-6614c",
+    "storage_bucket": "catempregos-6614c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428330186187:android:ac75dbc4c64eadaf",
+        "android_client_info": {
+          "package_name": "com.betharley.catempregos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428330186187-bqanf7rmp4592g2t1nbesgc9ao0k9rnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betharley.catempregos",
+            "certificate_hash": "085635dd2cd2299367c3f2c327088140cfde47dc"
+          }
+        },
+        {
+          "client_id": "428330186187-j4pvqtbsvs883du0d8jir7d3d6mgm6k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDc1_JyINR2KJwfCdhVqmD0ruYyvWmTqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428330186187-j4pvqtbsvs883du0d8jir7d3d6mgm6k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

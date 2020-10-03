@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "193053760076",
+    "firebase_url": "https://pandemiacorona-6ef86.firebaseio.com",
+    "project_id": "pandemiacorona-6ef86",
+    "storage_bucket": "pandemiacorona-6ef86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193053760076:android:968945aada83c0366d32e9",
+        "android_client_info": {
+          "package_name": "com.betharley.mobile.wesleycatula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193053760076-olenivrg71jbsdn4m2fegi53t7u2tp0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRAme8Ygy8pYQGuNPGd85NtTzktARB4QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193053760076-olenivrg71jbsdn4m2fegi53t7u2tp0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

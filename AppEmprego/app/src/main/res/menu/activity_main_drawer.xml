@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_pesquisar"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/menu_pesquisar" />
+
+        <item
+            android:id="@+id/nav_site_catula"
+            android:icon="@drawable/icone_sites"
+            android:title="Meu Site" />
+
+        <item
+            android:id="@+id/nav_site_vagas_disponiveis"
+            android:icon="@drawable/icone_sites"
+            android:title="Vagas Disponiveis" />
+
+        <item
+            android:id="@+id/nav_site_neuvoo"
+            android:icon="@drawable/icone_sites"
+            android:title="Neuvoo"
+            android:iconTint="#2196F3"
+            />
+        <item
+            android:id="@+id/nav_my_posts"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Postagens" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fotos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="Frases" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Perfil" />
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="App" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="" />
+
+
+        </menu>
+    </item>
+
+</menu>

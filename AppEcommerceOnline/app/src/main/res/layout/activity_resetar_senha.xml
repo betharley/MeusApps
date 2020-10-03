@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_gradiente"
+    tools:context=".inicio.CadastroActivity">
+
+
+    <LinearLayout
+        android:id="@+id/recuperar_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/recuperar_linear_email"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+
+            />
+
+        <TextView
+            android:id="@+id/recuperar_senha_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o seu Email Cadastrado para Recuperar a sua Senha."
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/recuperar_sub_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Você vai receber um link no seu email para redefinir outra senha para o seu email no aplicativo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:textColor="#F0DA73"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            />
+        <!--<TextView
+            android:id="@+id/login_layout_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="ENCOMENDAS\nONLINE"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:elevation="25dp"
+            />
+            -->
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/recuperar_progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/recuperar_linear_email"
+        android:visibility="invisible"
+        />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recuperar_linear_email"
+        android:layout_above="@+id/recuperar_botao"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#FFF"
+        android:layout_marginTop="50dp"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/recuperar_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o seu Email"
+            android:textColor="#FFF"
+            android:background="@drawable/fundo_opaco"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/recuperar_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_entrada"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Recuperar"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+</RelativeLayout>

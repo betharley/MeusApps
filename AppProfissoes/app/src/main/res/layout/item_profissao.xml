@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/shape_fundo_branco"
+    >
+
+    <TextView
+        android:id="@+id/item_profissao_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defesa e Gestão Estratégica Internacional"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#888"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        />
+
+</androidx.cardview.widget.CardView>

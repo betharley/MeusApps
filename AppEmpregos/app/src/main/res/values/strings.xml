@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cat Empregos</string>
+    <string name="login_email">Digite seu E-mail</string>
+    <string name="login_senha">Digite sua Senha</string>
+    <string name="login_logar">Logar</string>
+    <string name="cadastro_nome">Digite seu nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_cadastrar">Cadastrar</string>
+    <string name="menu_opcoes">Send</string>
+    <string name="menu_fechar">Send</string>
+    <string name="menu_logout">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

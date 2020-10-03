@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="#DDDDDD"
+    tools:context=".ComentarioActivity">
+
+   <!-- <TextView
+        android:id="@+id/comments_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentários"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5C5B5B"
+        android:textAlignment="center"
+        />-->
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comments_titulo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_below="@+id/comments_recyclerview"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@drawable/shape_transparente"
+        >
+
+        <EditText
+            android:id="@+id/comment_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs_branco"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:hint="Digite seu comentário ... "
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/comment_post_btn"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/ic_send_black_24dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_comentario_enviar"
+            android:scaleType="fitCenter"
+            android:onClick="salvarComentario"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

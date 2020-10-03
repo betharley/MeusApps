@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Empregos Go</string>
+    <string name="login_email">Digite seu E-mail</string>
+    <string name="login_senha">Digite sua Senha</string>
+    <string name="login_logar">Logar</string>
+    <string name="cadastro_nome">Digite seu nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_cadastrar">Cadastrar</string>
+    <string name="menu_opcoes">Send</string>
+    <string name="menu_fechar">Send</string>
+    <string name="menu_logout">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_meus_anuncios">MeusAnunciosActivity</string>
+
+
+    <string name="cadastro_descricao">
+        Descrição: \n
+        Android é um sistema operacional (SO) baseado no núcleo Linux e atualmente desenvolvido pela empresa de tecnologia Google. Com uma interface de usuário baseada na manipulação direta, o Android é projetado principalmente para dispositivos móveis com tela sensível ao toque como smartphones e tablets; com interface específica para TV (Android TV), carro (Android Auto) e relógio de pulso (Android Wear).
+        \nO sistema operacional utiliza-se da tela sensível ao toque para que o usuário possa manipular objetos virtuais e também de um teclado virtual. Apesar de ser principalmente utilizado em dispositivos com tela sensível ao toque, também é utilizado em consoles de videogames, câmeras digitais, computadores e outros dispositivos eletrônicos.
+        Android é um sistema operacional (SO) baseado no núcleo Linux e atualmente desenvolvido pela empresa de tecnologia Google. Com uma interface de usuário baseada na manipulação direta, o Android é projetado principalmente para dispositivos móveis com tela sensível ao toque como smartphones e tablets; com interface específica para TV (Android TV), carro (Android Auto) e relógio de pulso (Android Wear).
+        \nO sistema operacional utiliza-se da tela sensível ao toque para que o usuário possa manipular objetos virtuais e também de um teclado virtual. Apesar de ser principalmente utilizado em dispositivos com tela sensível ao toque, também é utilizado em consoles de videogames, câmeras digitais, computadores e outros dispositivos eletrônicos.
+
+    </string>
+
+
+    <string-array name="spiner_estados">
+        <item>Região</item>
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Bahia</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
+
+
+    <string-array name="spiner_categorias">
+        <item>Categoria</item>
+        <item>Administração</item>
+        <item>Informática</item>
+        <item>Telemarkting</item>
+        <item>Autônomo</item>
+        <item>Voluntário</item>
+        <item>vendedor</item>
+        <item>Saúde</item>
+        <item>Freelancer</item>
+        <item>Outros</item>
+    </string-array>
+</resources>
